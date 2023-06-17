@@ -2,12 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - entry points
- *Return: Always 0 (success)
- */
+*main- to find a random time changing value
+*Return: Always 0 (success)
+*/
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
