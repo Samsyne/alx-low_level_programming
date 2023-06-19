@@ -6,17 +6,10 @@
 int main(void)
 {
 int i;
-for (i = 0; i < 16; i++)
-{
-if (i < 10)
-{
-putchar(i + '0');
-}
-else
-{
-putchar(i - 10 + 'A');
-}
-}
+char letter;
+for (i = 0; i < 10; i++)
+putchar(( num % 10) + '0');
+for (letter = 'a'; letter <= 'f';letter++);
 putchar('\n');
 return (0);
 }
