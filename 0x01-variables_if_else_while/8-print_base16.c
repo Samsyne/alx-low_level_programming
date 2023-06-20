@@ -14,7 +14,7 @@ putchar(a);
 for
 (b = 97;
 b <= 102;
-b++);
+b++)
 {
 putchar(b);
 }
