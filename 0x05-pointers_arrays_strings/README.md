@@ -1,0 +1,1 @@
+About pointer and arrays
