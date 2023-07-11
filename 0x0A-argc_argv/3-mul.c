@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - A  program that multiplies two numbers.
- *
- * @argc: no of arguments counts on a commandline
- * @argv: pointer to a string of array
- * return: 0 is a success
+ * main - program that multiplies two numbers
+ * @argc: number of arguments passed on the command line
+ * @argv: array of strings representing the arguments
+ * Return: 0 on success
  */
 int main(int argc, char *argv[])
 {
-if (argc != 3)
+	if (argc != 3)
 {
 	printf("Error\n");
 	return (1);
