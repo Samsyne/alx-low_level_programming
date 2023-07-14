@@ -5,13 +5,13 @@
  * malloc_checked - Allocates memory
  * @b: the size to allocate
  *
- * Return: a pointer to 1st byte of 
+ * Return: a pointer to 1st byte of
  * allocated memory
  */
 void *malloc_checked(unsigned int b)
 {
 	void *p;
-	p = malloc(b);
+p = malloc(b);
 	if (p == NULL)
 		exit(98);
 	return (p);
