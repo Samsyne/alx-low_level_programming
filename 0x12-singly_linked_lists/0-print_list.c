@@ -18,9 +18,7 @@ if
 (h->str == NULL)
 printf("[%u] %s\n", h->len, "(nil)");
 else
-{
 printf("[%u] %s\n", h->len, h->str);
-}
 h = h->next;
 }
 printf("[%u] %s\n", h->len, h->str);
