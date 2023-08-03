@@ -20,6 +20,11 @@ typedef struct listint_s
 
 
 size_t print_listint(const listint_t *h);
+int delete_nodeint_at_index(listint_t **head, unsigned int index);
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
+int sum_listint(listint_t *head);
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
+int pop_listint(listint_t **head);
 void free_listint2(listint_t **head);
 listint_t *reverse_listint(listint_t **head);
 size_t free_listint_safe(listint_t **h);
