@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * delete_nodeint_at_index - deletes a node in a linked list 
+ * delete_nodeint_at_index - deletes a node in a linked list
  * @head: pointer to the head
  * @index: index of the node to delete
  *
