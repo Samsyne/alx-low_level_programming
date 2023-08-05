@@ -2,9 +2,9 @@
 
 
 /**
- * _pow - calculates (base ^ power)
- * @base: base of the exponent
- * @power: power of the exponent
+ * _pow - To calculates (base ^ power)
+ * @base: base of a value
+ * @power: power of the value
  *
  * Return: value of (base ^ power)
  */
@@ -20,7 +20,7 @@ unsigned long int _pow(unsigned int base, unsigned int power)
 }
 
 /**
- * print_binary - prints a number in binary notation
+ * print_binary - To prints a number in binary notation
  * @n: number to print
  *
  * Return: void

@@ -2,11 +2,11 @@
 
 
 /**
- * flip_bits - number of different bits between two numbers
+ * flip_bits - to evaluate d no of different bits between two numbers
  * @n: first number
  * @m: second number
  *
- * Return: number of bits you would need to flip
+ * Return: number of bits you would that needs fliping
  * to get from one number to another.
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)

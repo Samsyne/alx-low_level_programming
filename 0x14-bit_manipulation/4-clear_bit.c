@@ -2,11 +2,11 @@
 
 
 /**
- * clear_bit - sets the value of a bit to 0 at a given index.
+ * clear_bit - setting the value of a bit to
  * @n: number to set
  * @index: index at which to set bit
  *
- * Return: 1 if it worked, or -1 if an error occurred
+ * Return: 1 for success, or -1 for failure
  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
