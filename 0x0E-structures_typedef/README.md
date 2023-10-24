@@ -1,1 +1,0 @@
-Exploring Structure_typedef
